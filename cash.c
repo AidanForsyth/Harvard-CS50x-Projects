@@ -11,7 +11,7 @@ int main(void)
         dollars = get_float("What is the dollar amount owed? "); //asks the user to input the dollar amount owed 
         cents = round(dollars * 100); //converts the dollar amount owed into cents owed
     }
-    while(cents < 0);
+    while (cents < 0);
 
 /*
 Test cases below 
@@ -19,25 +19,25 @@ Test cases below
 
     int num_coins = 0; //initializing the min number of coins 
     
-    while(cents >= 25)
+    while (cents >= 25)
     {
         cents = cents - 25;
         num_coins++;
     }
     
-    while((cents >= 10) && (cents < 25))
+    while ((cents >= 10) && (cents < 25))
     {
         cents = cents - 10;
         num_coins++;
     }
     
-    while((cents >= 5) && (cents < 10))
+    while ((cents >= 5) && (cents < 10))
     {
         cents = cents - 5;
         num_coins++;
     }
     
-    while((cents >= 1) && (cents < 5))
+    while ((cents >= 1) && (cents < 5))
     {
         cents = cents - 1;
         num_coins++;
