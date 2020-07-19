@@ -12,8 +12,12 @@ int main(void)
         cents = round(dollars * 100); //converts the dollar amount owed into cents owed
     }
     while(cents < 0);
-    
-    int num_coins = 0;
+
+/*
+Test cases below 
+*/
+
+    int num_coins = 0; //initializing the min number of coins 
     
     while(cents >= 25)
     {
