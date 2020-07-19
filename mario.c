@@ -13,7 +13,7 @@ int main(void)
     while ((n < 1) || (n > 8));
     for (int i = 1; i <= n; ++i, k = 0)
     {
-       for (int spaces = (n-i); spaces >= 0; spaces--)
+       for (int spaces = (n-i); spaces > 0; spaces--)
        {
            printf(" ");
        }
