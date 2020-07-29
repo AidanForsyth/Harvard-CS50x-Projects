@@ -47,6 +47,8 @@ int main(void)
         printf("Grade 16+\n");
     }
     
+    //Testing to see the number of letters, words and sentences
+    
     /*
     printf("Letter(s): %i\n ", i);
     printf("Word(s): %i\n", h);
