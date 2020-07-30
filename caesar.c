@@ -36,7 +36,5 @@ int main(int argc, string argv[])
         {
             printf("%c", ((((plaintext[j] - 95) + key) % 26) + 95));
         }
-        
     }
-    printf("\n");
 }
